@@ -1,0 +1,69 @@
+body {
+  font-family: "Baloo Da 2", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+#id{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#tb {
+	appearance: none;
+	border: none;
+	outline: none;
+	border-bottom: .2em solid #000000;
+	background: rgba(#000000, .2);
+	border-radius: .2em .2em 0 0;
+	padding: .4em;
+}
+
+#info{
+    display: flex;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.column-left {
+    width: 50%;
+}
+
+.column-right {
+    width: 50%;
+}
+
+#addr {
+    text-align: justify;
+}
+
+#time_pick, #buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;  
+}
+
+#time-picker {
+	border: .2em solid #000000;
+	padding: .8em .9em;
+	border-radius: 2em;
+	color: #000000;
+}
+
+.submit-btn {
+    background-color: #e2b646;
+    color: white;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 11%;
+    font-size: 1rem;
+}
+
+.submit-btn:hover {
+    background-color: #cca647;
+}

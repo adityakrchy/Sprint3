@@ -1,0 +1,82 @@
+body{
+    font-family: "Baloo Da 2", serif;
+    display:flex;
+    height: 45vh;
+    background-color: #ffffff;
+    margin: 0;
+    padding-left: 400px;
+    padding-right: 350px;
+}
+.container{
+    width: 500px;
+    height:500px;
+    padding: 45px;
+    background-color:#D3D3D3;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    align-items:center;
+}
+
+h1{
+    text-align: left;
+    margin-bottom: 10px;
+    margin-top:10px;
+    padding-left: 10px;
+}
+
+.invoice-details{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.receiver{
+    text-align: left;
+    padding-left: 10px;
+    padding-top:20px;
+}
+
+.time{
+    text-align: left;
+    padding-top:20px;
+    padding-right: 100px;
+}
+
+label{
+    width:130px;
+    text-align:right;
+    margin-right: 10px;
+}
+
+button{
+    display: block;
+    width:100%;
+    padding:10px;
+    border: none;
+    background-color:#e2b646;
+    color:black;
+    font-size:16px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom:200px;
+    margin-right:10px;
+}
+
+th,td{
+    text-align: center;
+    border: 1px solid #ddd;
+    font-size: 13px;
+}
+
+th{
+    background-color: #f2f2f2;
+}
+
+button:hover{
+    box-shadow: 0 0 10px rgba(1,1,1,1);
+}

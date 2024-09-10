@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header{
+    background-color: #e2b646;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.banner{
+    background-color: #e2e2e2;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.banner h2{
+    margin-top: 0;
+}
+
+.contact-methods{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: white;
+}
+
+.method{
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+footer{
+    background-color: #e2b646;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.hidden{
+    display: none;
+}
+
+.chat-section{
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+}
+
+.chat-box{
+    max-width: 500px;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+#chatMessages{
+    height: 200px;
+    overflow-y: scroll;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+#chatInput{
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-right: 10px;
+}
+
+#sendButton{
+    padding: 10px 20px;
+    background-color: #e2b646;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#sendButton:hover{
+    background-color: #cca647;
+}

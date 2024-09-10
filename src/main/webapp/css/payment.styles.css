@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: "Baloo Da 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.payment-section {
+
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.left-side {
+    width: 50vw;
+    /* border: 1px solid black; */
+    padding: 50px;
+    background-color: rgb(245, 245, 245);
+}
+
+.right-side {
+    width: 50vw;
+    /* border: 1px solid black; */
+}
+
+.right-form {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding: 50px;
+}
+
+#right-form-heading {
+    color: gray;
+}
+
+
+.shipping-address-input-box,
+.payment-details-input-box {
+    gap: 4px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.card-credentials-input-box {
+    width: 100%;
+    display: flex;
+}
+
+.card-credentials-input-box input {
+    flex: 1;
+}
+
+input {
+    padding: 8px;
+}
+
+.form-checkbox {
+    display: flex;
+    flex-direction: row;
+}
+
+.pay-button {
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    font-size: medium;
+    border-radius: 5px;
+}
+
+.left-side-back-button-banner {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* justify-content: center; */
+}
+
+.item-menu-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-wrapper {
+    margin-right: 10px;
+}
+
+.item-description {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.hr-line-seperator {
+
+    background-color: #C80000;
+    color: #C80000;
+   /* transform: rotate(90deg); */
+}
